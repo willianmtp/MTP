@@ -13,7 +13,7 @@ int main() {
 
     printf("coloque um numero divisivel de 8192 :");
     scanf("%d", &numero1);
-    if(numero2%numero1) == 0){
+    if(numero2%numero1 == 0){
         numero3 = numero3 + 1;
     }
       printf("\nEscreva o resultado da soma de %d mais 101 :", y);
@@ -30,7 +30,7 @@ int main() {
 
 
      }
-    printf("\nSua pontuacao foi %d," numero3);
+    printf("\nSua Pontuacao foi %d.", numero3);
 
    return 0;
 
